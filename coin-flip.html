@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coin Flip</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Guess the Coin Flip!</h1>
+    <p>Click on either "Heads" or "Tails" to make your guess.</p>
+  
+    <button onclick="playgame('heads')">Heads</button>
+    <button onclick="playgame('tails')">Tails</button>
+
+    <div class="score">
+      <p>Wins: <span id="wins">0</span></p>
+      <p>Losses: <span id="losses">0</span></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
